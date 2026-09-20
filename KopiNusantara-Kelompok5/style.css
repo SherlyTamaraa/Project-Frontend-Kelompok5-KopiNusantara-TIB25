@@ -300,3 +300,45 @@ body {
     color: #5a6e67;
 }
 
+.box-about {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    border: 1px solid #e2e8e4;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+    padding-top: 15px;
+    border-top: 1px solid #e2e8e4;
+    text-align: center;
+}
+
+.stats h3 {
+    color: #00897b;
+    font-weight: 800;
+}
+
+@media (min-width: 576px) {
+    .btn-group {
+        flex-direction: row;
+    }
+    .grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .menu a {
+        font-size: 14px;
+        padding: 8px 12px;
+    }
+}
+
+@media (min-width: 993px) {
+    .grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .foot-grid {
+        grid-template-columns: 2fr 1fr 1fr;
+    }
+}
