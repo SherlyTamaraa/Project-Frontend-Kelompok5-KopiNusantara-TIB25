@@ -342,3 +342,61 @@ body {
         grid-template-columns: 2fr 1fr 1fr;
     }
 }
+
+.faq-section {
+    width: 100%;
+}
+
+.faq-list {
+    max-width: 800px;
+    margin: 30px auto 0;
+}
+
+.faq-item {
+    margin-bottom: 12px;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    overflow: hidden;
+    background: #ffffff;
+}
+
+.faq-question {
+    width: 100%;
+    padding: 18px 20px;
+    border: none;
+    background: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 600;
+    color: #333333;
+    cursor: pointer;
+}
+
+.faq-question:hover {
+    background: #f8f8f8;
+}
+
+.faq-icon {
+    font-size: 22px;
+    font-weight: 400;
+    transition: transform 0.3s ease;
+}
+
+.faq-question.active .faq-icon {
+    transform: rotate(45deg);
+}
+
+.faq-answer {
+    display: none;
+    padding: 0 20px 18px;
+}
+
+.faq-answer p {
+    margin: 0;
+    line-height: 1.7;
+    color: #666666;
+}
