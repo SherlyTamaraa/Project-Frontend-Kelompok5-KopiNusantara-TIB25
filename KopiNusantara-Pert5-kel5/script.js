@@ -21,5 +21,40 @@ $(document).ready(function () {
 
     });
 
-    
+    // Untuk menambah dan mengurangi jumlah like
+    $(".like-btn").click(function () {
+
+        var button = $(this);
+        var countElement = button.find(".like-count");
+        var heartElement = button.find(".heart");
+        var textElement = button.find(".like-text");
+
+        var currentCount = parseInt(countElement.text());
+
+
+        if (!button.hasClass("liked")) {
+
+            // buat tambahin jumlah like
+            currentCount++;
+
+            countElement.text(currentCount);
+            heartElement.text("♥");
+            textElement.text("Disukai");
+
+            button.addClass("liked");
+
+        } else {
+
+            // buat kurangin jumlah like
+            currentCount--;
+
+            countElement.text(currentCount);
+            heartElement.text("♡");
+            textElement.text("Suka");
+
+            button.removeClass("liked");
+
+        }
+
+    });
 });
