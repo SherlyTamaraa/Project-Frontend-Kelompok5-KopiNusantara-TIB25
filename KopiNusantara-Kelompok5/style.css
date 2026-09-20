@@ -99,3 +99,63 @@ body {
     border-top: 1px solid rgba(255, 255, 255, 0.1);
     font-size: 12px;
 }
+
+.tag {
+    display: inline-block;
+    background: #e0f2f1;
+    color: #004d40;
+    font-size: 11px;
+    font-weight: 700;
+    padding: 4px 10px;
+    border-radius: 10px;
+}
+
+.header {
+    padding: 45px 0;
+    color: #ffffff;
+    background: #004d40;
+}
+
+.header-top h1 {
+    font-size: 28px;
+    font-weight: 800;
+    margin: 8px 0;
+    line-height: 1.2;
+}
+
+.btn-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 18px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+    text-align: center;
+    transition: 0.15s;
+}
+
+.btn-menu {
+    background: #00897b;
+    color: #ffffff;
+}
+
+.btn-aboutus {
+    border: 1px solid #ffffff;
+    color: #ffffff;
+}
+
+.btn:hover {
+    opacity: 0.9;
+    transform: translateY(-2px);
+}
+
+.btn:active {
+    transform: translateY(1px) scale(0.97);
+}
