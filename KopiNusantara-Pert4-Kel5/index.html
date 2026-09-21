@@ -18,6 +18,12 @@
                 <li><a href="#tentang">Tentang Kami</a></li>
                 <li><a href="#menu">Menu</a></li>
                 <li><a href="#kontak">Kontak</a></li>
+                <li>
+                    <button id="btn-reset" class="btn-reset">
+                        Kosongkan Keranjang
+                    </button>
+                </li>
+                
             </ul>
         </div>
     </header>
@@ -189,6 +195,26 @@
         </div>
     </section>
     
+    <!-- Modal Keranjang Belanja -->
+    <div id="modal-keranjang" class="cart-modal">
+        <div class="cart-content">
+            <div class="cart-header">
+                <h3>Keranjang Pesanan</h3>
+                <button id="btn-tutup-cart" class="close-btn">&times;</button>
+            </div>
+            <div id="daftar-keranjang" class="cart-body">
+                <!-- Daftar item akan dimuat di sini -->
+            </div>
+            <div class="cart-footer">
+                <div class="cart-total">
+                    <span>Total Bayar:</span>
+                    <b id="total-harga">Rp 0</b>
+                </div>
+                <button id="btn-checkout" class="btn btn-menu" style="width: 100%;">Checkout</button>
+            </div>
+        </div>
+    </div>
+
     <!-- Footer -->
     <footer id="kontak" class="foot">
         <div class="wrap foot-grid">
@@ -210,5 +236,6 @@
         </div>
     </footer>
 
+    <script src="script.js"></script>
 </body>
 </html>

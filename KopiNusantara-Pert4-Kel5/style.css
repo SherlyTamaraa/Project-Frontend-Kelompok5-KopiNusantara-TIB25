@@ -51,8 +51,9 @@ body {
 
 .menu {
     display: flex;
+    align-items: center;
     list-style: none;
-    gap: 4px;
+    gap: 6px;
 }
 
 .menu a {
@@ -71,6 +72,27 @@ body {
 }
 
 .menu a:active {
+    transform: scale(0.95);
+}
+
+.btn-reset {
+    background: #00897b;
+    color: #ffffff;
+    border: none;
+    font-weight: 600;
+    font-size: 13px;
+    padding: 6px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-family: inherit;
+    transition: 0.2s;
+}
+
+.btn-reset:hover {
+    background: #004d40;
+}
+
+.btn-reset:active {
     transform: scale(0.95);
 }
 
