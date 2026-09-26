@@ -170,3 +170,34 @@ body {
     box-shadow: none;
     border-color: rgba(0, 137, 123, 0.25);
 }
+
+/* Tombol Like */
+.like-btn {
+    border: 1px solid #dee2e6;
+    border-radius: 50px;
+    background: #ffffff;
+    color: #333333;
+    font-size: 14px;
+    padding: 6px 14px;
+    cursor: pointer;
+    transition: 0.2s ease;
+    align-self: flex-start;
+}
+
+.like-btn:hover {
+    background: #f8f9fa;
+}
+
+.like-btn.liked {
+    background: #f3e1d2;
+    border-color: #b9825b;
+}
+
+/* Footer */
+.footer {
+    background-color: #004d40;
+}
+
+.text-footer-muted {
+    color: #b2dfdb;
+}
