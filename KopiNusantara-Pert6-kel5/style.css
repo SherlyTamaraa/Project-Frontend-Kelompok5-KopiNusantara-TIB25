@@ -140,3 +140,18 @@ body {
 .border-dashed {
     border-top-style: dashed !important;
 }
+
+.modal-img-box {
+    width: 100%;
+    aspect-ratio: 4 / 5;   /* Rasio foto portrait tinggi sesuai keinginan */
+    max-height: 480px;
+    overflow: hidden;
+    border-radius: 16px;
+}
+
+.modal-img-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
