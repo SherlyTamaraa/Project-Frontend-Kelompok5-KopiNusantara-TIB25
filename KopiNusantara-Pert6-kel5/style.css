@@ -92,7 +92,7 @@ body {
     transform: scale(1.05);
 }
 
-/* Badge Kategori Menu */
+/* Menu */
 .badge {
     position: absolute;
     top: 12px;
@@ -143,7 +143,7 @@ body {
 
 .modal-img-box {
     width: 100%;
-    aspect-ratio: 4 / 5;   /* Rasio foto portrait tinggi sesuai keinginan */
+    aspect-ratio: 4 / 5;
     max-height: 480px;
     overflow: hidden;
     border-radius: 16px;
@@ -154,4 +154,19 @@ body {
     height: 100%;
     object-fit: cover;
     object-position: center;
+}
+
+.text-accent {
+    color: #00897b;
+}
+
+.custom-accordion .accordion-button:not(.collapsed) {
+    background-color: #e0f2f1;
+    color: #004d40;
+    box-shadow: none;
+}
+
+.custom-accordion .accordion-button:focus {
+    box-shadow: none;
+    border-color: rgba(0, 137, 123, 0.25);
 }
