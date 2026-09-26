@@ -1,0 +1,142 @@
+body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    background-color: #f7f9f6;
+    color: #1c2d27;
+    overflow-x: hidden;
+}
+
+/* Navigation */
+.logo {
+    text-decoration: none;
+    color: #004d40;
+    font-size: 1.15rem;
+    font-weight: 800;
+}
+
+.logo b {
+    color: #00897b;
+}
+
+.navbar .nav-link {
+    font-weight: 600;
+    color: #1c2d27;
+    border-radius: 8px;
+    padding: 6px 14px;
+    transition: 0.2s;
+}
+
+.navbar .nav-link:hover {
+    color: #00897b;
+    background: #f0fdf4;
+}
+
+/* Tag Kecil */
+.tag {
+    display: inline-block;
+    background: #e0f2f1;
+    color: #004d40;
+    font-size: 11px;
+    font-weight: 700;
+    padding: 4px 12px;
+    border-radius: 20px;
+}
+
+/* Header */
+.hero-section {
+    min-height: 480px;
+    padding: 90px 0;
+    background: linear-gradient(rgba(0, 77, 64, 0.75), rgba(0, 77, 64, 0.9)),
+                url('assets/background.jpg') center/cover no-repeat;
+}
+
+.btn-coffee {
+    background: #00897b;
+    color: #ffffff;
+    font-weight: 700;
+    border-radius: 50px;
+    padding: 10px 24px;
+    border: none;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.btn-coffee:hover {
+    background: #00796b;
+    color: #ffffff;
+}
+
+.product-card {
+    border-radius: 14px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.product-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08) !important;
+}
+
+.img-box {
+    aspect-ratio: 4 / 3;
+    overflow: hidden;
+    border-radius: 14px 14px 0 0;
+}
+
+.img-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.product-card:hover .img-box img {
+    transform: scale(1.05);
+}
+
+/* Badge Kategori Menu */
+.badge {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    font-size: 11px;
+    font-weight: 700;
+    padding: 5px 10px;
+    border-radius: 8px;
+    z-index: 2;
+}
+
+.badge-bestseller {
+    background: #fff3e0;
+    color: #e65100;
+}
+
+.badge-signature {
+    background: #e0f2f1;
+    color: #004d40;
+}
+
+.badge-new {
+    background: #fff3e0;
+    color: #db6e33;
+}
+
+.text-dark-green {
+    color: #004d40;
+}
+
+.daerah {
+    color: #00897b;
+    font-size: 13px;
+}
+
+.rate {
+    color: #f57f17;
+    font-size: 13px;
+}
+
+.harga {
+    color: #004d40;
+}
+
+.border-dashed {
+    border-top-style: dashed !important;
+}
